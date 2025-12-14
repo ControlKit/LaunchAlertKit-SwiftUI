@@ -61,6 +61,7 @@ public struct LaunchAlertView_FullScreen1: LaunchAlertViewProtocol {
                     image: config.image,
                     imageType: config.imageType
                 )
+                .aspectRatio(contentMode: .fill)
                 .frame(width: 191, height: 139)
                 .padding(.bottom, 70)
                 
@@ -101,8 +102,11 @@ public struct LaunchAlertView_FullScreen1: LaunchAlertViewProtocol {
                 }
                 .padding(.bottom, 60)
             }
+            .ignoresSafeArea()
+            
         }
         .cornerRadius(20)
+        .ignoresSafeArea()
     }
 }
 
