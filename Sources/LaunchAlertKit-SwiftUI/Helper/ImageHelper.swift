@@ -6,7 +6,6 @@
 //
 import Foundation
 import SwiftUI
-import UIKit
 
 public class ImageHelper {
     public static var resolvedBundle: Bundle {
